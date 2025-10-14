@@ -1,0 +1,17 @@
+1. feladat:
+Generálj egy random számokból álló 100 elemű listát melyek elemei [-20, 100] tartományban lévő számok
+
+2. feladat:
+Kérj be egy egész számot a felhasználótól és döntsd el, hogy a megadott szám szerepel-e a listában, az eredményt jelenítsd meg. Ha a program már megtalálta az adott számot, akkor állítsd le a ciklust.
+
+3. feladat:
+Határozzuk meg, hogy hány db 7-tel osztható szám szerepel a listában (A 0-t nem tekintjük jelen esetben 7-tel oszthatónak, ezért azt ne számoljuk)
+
+4. feladat:
+Írd ki a kimenetre a negatív számok összegét!
+
+5. feladat:
+Írjuk ki, hogy melyik szám a legkisebb és, hogy a lista hanyadik indexén található (ha többször is szerepel, akkor a legkisebb indexet)
+
+6. feladat:
+Határozd meg és írd ki outputra a lista MÁSODIK legnagyobb értékét.
