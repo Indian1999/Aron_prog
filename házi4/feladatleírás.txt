@@ -1,0 +1,17 @@
+A raktar.csv állomány egy bolt raktárkészletét tartalmazza
+Az egyes sorok egy-egy termék nevét, árát és raktáron lévő mennyiségét tartalmazzák.
+Például: Royal Chips;813;174
+Termék neve: Royal Chips
+Ára: 813 Ft
+Raktáron lévő mennyiség 174 db
+
+1. feladat: Olvasd be a raktar.csv állományt és tárold el az adatokat egy megfelelő adatszerkezetben
+
+2. feladat: Mennyibe kerül egy átlagos termék ebben a boltban? (Mennyi az árak átlaga)
+
+3. feladat: Ha egy termékből kevesebb, mint 20 darab van raktáron, akkor az üzletvezetőnek le kell
+adnia egy rendelést a nagykereskedésből. Írd ki azoknak a termékeknek a nevét és raktáron lévő
+mennyiségét melyekből fel kell tölteni a készletet.
+
+4. feladat: Mennyi a bolt raktárának összértéke? 
+(Mennyi pénz lenne ha minden termékből minden darabot megvennének)
