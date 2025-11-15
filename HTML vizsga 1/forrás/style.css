@@ -1,0 +1,31 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+li {
+  color: white;
+}
+
+#csapat {
+  max-width: 50%;
+}
+
+footer {
+  background-color: #2b2a2a;
+  padding-top: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+#info {
+  text-align: left;
+  font-size: 10px;
+  margin-top: 10px;
+}
