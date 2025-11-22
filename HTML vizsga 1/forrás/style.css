@@ -1,6 +1,7 @@
 body {
   background-size: cover;
   background-repeat: no-repeat;
+  background-image: url("hatter.jpg");
 }
 
 li {
@@ -9,6 +10,13 @@ li {
 
 #csapat {
   max-width: 50%;
+  width: 400px;
+  float: right;
+  margin-left: 25px;
+  /*border-width: 6px;
+  border-style: dashed;
+  border-color: white;*/
+  border: 6px dashed white;
 }
 
 footer {
@@ -28,4 +36,36 @@ footer {
   text-align: left;
   font-size: 10px;
   margin-top: 10px;
+}
+
+#oldal {
+  background-color: rgba(0, 0, 0, 25%);
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 50px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-size: 18px;
+}
+
+.first {
+  font-weight: bold;
+}
+
+.class {
+  font-style: italic;
 }
