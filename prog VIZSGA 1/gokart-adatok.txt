@@ -1,0 +1,19 @@
+﻿név;település;pálya hossz (m);jegyár
+G1 Kart Center;Budapest;450;1800
+Battaring ;Százhalombatta;500;4800
+Motorcity Ring;Budapest;800;4000
+FlashKart KÖKI;Budapest;225;4500
+Hungaroring ;Mogyoród;513;3800
+GoKart Farm;Csömör;350;4200
+Gokart Sportaréna;Budapest;400;3500
+SilverKart;Budapest;420;4850
+Gokart Sport;Vác;380;10900
+Gokart Aréna;Budafok;280;3500
+CsepelRing;Budapest;310;4000
+Motokart;Ráckeve;530;4000
+SER-Ring;Seregélyes;1025;5000
+Kulcs Gokart;Kulcs;510;3000
+TataKart;Tata;320;3500
+DrivingCamp;Zsámbék;760;4290
+Bognár Gokart;Nyársapát;820;4000
+Fehérvár Ring;Székesfehérvár;480;4500

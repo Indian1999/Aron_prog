@@ -69,3 +69,24 @@ p {
 .class {
   font-style: italic;
 }
+
+a:hover {
+  color: gray;
+}
+
+a:active {
+  color: red;
+}
+
+a:visited {
+  color: rgb(218,218,218);
+}
+
+a:link {
+  color: white;
+}
+
+#html_icon {
+  width: 50px;
+  text-align: center;
+}
