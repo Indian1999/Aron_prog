@@ -1,0 +1,11 @@
+cim;mufaj;hossz;jegyar;telepules
+Avatar 2;sci-fi;192;2500;Budapest
+Oppenheimer;drama;180;2200;Budapest
+Barbie;vigjatek;114;1800;Debrecen
+Indiana Jones 5;akcio;154;2000;Szeged
+Spider-Man;akcio;148;2100;Budapest
+Elemental;animacio;101;1600;Pecs
+Mission Impossible 7;akcio;163;2300;Budapest
+Transformers;akcio;127;1900;Debrecen
+The Flash;akcio;144;2000;Gyor
+Meg 2;akcio;116;1700;Szeged
