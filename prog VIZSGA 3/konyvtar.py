@@ -52,6 +52,13 @@ print(f"{evszam}-tól kezdve {szamlalo} könyv jelent meg.")
 # 5. Feladat: regi-konyvek.txt-be a 2000 előtti könyvek
 
 path = os.path.join(os.path.dirname(__file__), "regi-konyvek.txt")
+
+
+
+
+
+
+
 with open(path, "w", encoding="utf-8") as f:
     for i in range(len(konyvek)):
         if konyvek[i].kiadas_eve <= 2000:

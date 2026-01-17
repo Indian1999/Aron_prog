@@ -1,0 +1,100 @@
+/* 4. Háttérkép az egész oldalra */
+body {
+    background-image: url('kocka-hatter.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* 5. Az #oldal azonosítókijelölő beállításai */
+#oldal {
+    background-color: rgba(0, 0, 0, 0.7); /* 5a. fekete 30%-ban átlátszó - 70% opacity */
+    margin-top: 80px;      /* 5b. felső margó */
+    margin-right: 40px;    /* 5b. jobb margó */
+    margin-left: 40px;     /* 5b. bal margó */
+    padding: 40px;         /* 5c. belső margó mind a 4 oldalon */
+}
+
+/* 6a. 1-es szintű címsor - sárga, középre igazított, félkövér */
+h1 {
+    color: #FFD500;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 6b. 2-es szintű címsor - sárga */
+h2 {
+    color: #FFD500;
+}
+
+/* 7. Bekezdések - fehér, sorkizárt, 16px */
+p {
+    color: white;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* 8. Főkép beállításai */
+#fokep {
+    width: 350px;              /* 8a. szélesség 350px */
+    max-width: 50%;            /* 8a. max szélesség 50% */
+    height: auto;              /* 8a. magasság arányosan */
+    float: left;               /* 8b. balra úsztatás */
+    margin-right: 20px;        /* 8c. jobb oldali külső margó */
+    border: 4px dashed #FFD500; /* 8d. sárga, 4px, szaggatott szegély */
+}
+
+/* 9. Bevezető bekezdés - félkövér */
+.bevezeto {
+    font-weight: bold;
+}
+
+/* 10. Évszámok - dőlt betű */
+.evszam {
+    font-style: italic;
+}
+
+/* 16. Linkek színei */
+a:link {
+    color: #FFD500;            /* 16a. nem látogatott: sárga */
+}
+
+a:visited {
+    color: rgb(255, 200, 0);   /* 16b. meglátogatott: rgb */
+}
+
+a:hover {
+    color: orange;             /* 16c. egér felette: narancssárga */
+}
+
+a:active {
+    color: red;                /* 16d. kattintáskor: piros */
+}
+
+/* 17. Lábléc ikon beállításai */
+#html-icon {
+    width: 60px;               /* 17a. szélesség 60px */
+    height: auto;              /* 17a. magasság arányosan */
+    display: block;            /* 17b. középre igazításhoz */
+    margin: 0 auto;            /* 17b. középre igazítás */
+}
+
+/* Lista elemek színe fehérre */
+li {
+    color: white;
+}
+
+/* Táblázat szöveg színe */
+.table-dark {
+    color: white;
+}
+
+/* Footer szöveg */
+footer p {
+    margin-bottom: 0;
+}
+
+/* Carousel képek */
+.carousel-item img {
+    border-radius: 5px;
+}
