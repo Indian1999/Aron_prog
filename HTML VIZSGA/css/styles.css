@@ -1,7 +1,9 @@
 body {
     background-color: snow;
+    width: 1280px;
     display: block;
     margin: auto;
+    font-family: 'Verdana', 'sans-serif';
 }
 
 #tartalom, header, footer, nav, table{
@@ -12,6 +14,7 @@ body {
 
 h1 {
     color:steelblue;
+    font-variant:normal;
 }
 
 h2 {
@@ -19,6 +22,13 @@ h2 {
     width: 60%;
     padding: 10px;
     color:steelblue;
+    font-variant: small-caps;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 150%;
 }
 
 img {
@@ -44,8 +54,11 @@ img {
 
 a {
     color:steelblue;
+    text-decoration: underline;
 }
 
 a:hover {
     color:navy;
+    text-decoration: none;
 }
+

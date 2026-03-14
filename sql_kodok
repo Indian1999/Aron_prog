@@ -1,0 +1,31 @@
+/* Írjuk ki azoknak a vásárlóknak a nevét, címét, városát, akik Londonban élnek és C betűvel kezdődik a nevük */
+SELECT CustomerName, Address, City FROM Customers
+WHERE City = "London" and CustomerName like "C%"
+
+
+/* Kérdezzük le azoknak a vásárlóknak a nevét, címét, városát, akiknek a nevében szerepel y betű */
+SELECT CustomerName, Address, City FROM Customers
+WHERE Customername like "%Y%"
+
+/* Írjuk ki Azoknak a vásárlóknak a nevét, városát, országát akiknek a nevében van 'o' betű, a város neve szerint növekvő sorrendbe rendezve */
+
+SELECT CustomerName, City, Country FROM Customers
+where CustomerName like "%o%"
+order by City asc
+
+/* Írjuk ki azt, hogy melyik országból hány vásárlónk van, darabszám szerint csökkenő sorrendben */
+SELECT Country, count(CustomerID) as "Vasarlok szama" FROM Customers
+GROUP BY COUNTRY
+order by count(CustomerID) desc
+
+/* Írjuk ki Azoknak az országoknak a nevét és vásárlók számát, ahol legalább 8 vásárló van. */
+SELECT Country, Count(CustomerID) as 'Customer Count' FROM Customers
+GROUP BY Country
+HAVING Count(CustomerID) > 8
+
+/* Csoportosítsuk az adatokat országok, azon belül városok alapján, és írjuk ki, hogy melyik városból hányan vannak, ha van legalább 3 vásárló */
+SELECT Country, City, Count(CustomerID) as "Count" FROM Customers
+GROUP BY Country, City
+HAVING COUNT(CustomerID) >= 3
+
+
